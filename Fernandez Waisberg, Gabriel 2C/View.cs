@@ -4,15 +4,15 @@ using System.Windows.Forms;
 
 namespace Calculadora___Integrador
 {
-    public partial class FrmCalculadora : Form
+    public partial class View : Form
     {
-        private Operacion calculadora;
+        private Calculadora calculadora;
         private Numeracion primerOperando;
         private Numeracion segundoOperando;
         private Numeracion resultado;
         private ESistema sistema;
 
-        public FrmCalculadora()
+        public View()
         {
             InitializeComponent();
         }
@@ -48,18 +48,20 @@ namespace Calculadora___Integrador
 
         private void btnOperar_Click(object sender, EventArgs e)
         {
+            /*
             char operador;
 
             primerOperando = new Numeracion(txtPrimerOperando.Text, ESistema.Decimal);
             segundoOperando = new Numeracion(txtSegundoOperando.Text, ESistema.Decimal);
 
-            calculadora = new Operacion(primerOperando, segundoOperando);
+            calculadora = new Calculadora(primerOperando, segundoOperando);
 
             bool resultadoChar = char.TryParse(cmbOperacion.Text, out operador);
 
             this.resultado = calculadora.Operar(operador);
 
             SetResultado();
+            */
         }
 
         private void rdbBinario_CheckedChanged(object sender, EventArgs e)
@@ -67,7 +69,7 @@ namespace Calculadora___Integrador
             if (rdbBinario.Checked)
             {
                 this.sistema = ESistema.Binario;
-                SetResultado();
+                //SetResultado();
             }
         }
 
@@ -76,18 +78,20 @@ namespace Calculadora___Integrador
             if (rdbDecimal.Checked)
             {
                 this.sistema = ESistema.Decimal;
-                SetResultado();
+                //SetResultado();
             }
         }
 
         private void SetResultado()
         {
+            /*
             if (resultado is null)
             {
                 return;
             }
 
             this.labelResultado.Text = resultado.ConvertirA(this.sistema);
+            */
         }
 
         private void txtPrimerOperando_TextChanged(object sender, EventArgs e)

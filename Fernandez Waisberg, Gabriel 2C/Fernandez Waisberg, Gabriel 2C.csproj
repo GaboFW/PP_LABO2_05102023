@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9FE4DE54-3A26-4022-9F38-7E18225F686F}</ProjectGuid>
+    <ProjectGuid>{0F721A9C-5ACD-41D0-A6E7-2664AD75F870}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>Calculadora___Integrador</RootNamespace>
     <AssemblyName>Calculadora - Integrador</AssemblyName>
@@ -46,16 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FrmCalculadora.cs">
+    <Compile Include="View.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmCalculadora.Designer.cs">
-      <DependentUpon>FrmCalculadora.cs</DependentUpon>
+    <Compile Include="View.Designer.cs">
+      <DependentUpon>View.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="FrmCalculadora.resx">
-      <DependentUpon>FrmCalculadora.cs</DependentUpon>
+    <EmbeddedResource Include="View.resx">
+      <DependentUpon>View.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

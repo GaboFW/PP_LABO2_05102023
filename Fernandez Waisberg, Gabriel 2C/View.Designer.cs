@@ -1,6 +1,6 @@
 ﻿namespace Calculadora___Integrador
 {
-    partial class FrmCalculadora
+    partial class View
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmCalculadora));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(View));
             this.grpRepresentarResultado = new System.Windows.Forms.GroupBox();
             this.rdbBinario = new System.Windows.Forms.RadioButton();
             this.rdbDecimal = new System.Windows.Forms.RadioButton();
