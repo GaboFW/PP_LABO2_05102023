@@ -1,0 +1,13 @@
+F:\ProgramData\Microsoft\VisualStudio\Repos\Calculadora - Integrador\Calculadora - Integrador\obj\Debug\Calculadora - Integrador.csproj.AssemblyReference.cache
+F:\ProgramData\Microsoft\VisualStudio\Repos\Calculadora - Integrador\Calculadora - Integrador\obj\Debug\Calculadora___Integrador.Properties.Resources.resources
+F:\ProgramData\Microsoft\VisualStudio\Repos\Calculadora - Integrador\Calculadora - Integrador\obj\Debug\Calculadora - Integrador.csproj.GenerateResource.cache
+F:\ProgramData\Microsoft\VisualStudio\Repos\Calculadora - Integrador\Calculadora - Integrador\obj\Debug\Calculadora - Integrador.csproj.CoreCompileInputs.cache
+F:\ProgramData\Microsoft\VisualStudio\Repos\Calculadora - Integrador\Calculadora - Integrador\bin\Debug\Calculadora - Integrador.exe.config
+F:\ProgramData\Microsoft\VisualStudio\Repos\Calculadora - Integrador\Calculadora - Integrador\bin\Debug\Calculadora - Integrador.exe
+F:\ProgramData\Microsoft\VisualStudio\Repos\Calculadora - Integrador\Calculadora - Integrador\bin\Debug\Calculadora - Integrador.pdb
+F:\ProgramData\Microsoft\VisualStudio\Repos\Calculadora - Integrador\Calculadora - Integrador\obj\Debug\Calculadora - Integrador.exe
+F:\ProgramData\Microsoft\VisualStudio\Repos\Calculadora - Integrador\Calculadora - Integrador\obj\Debug\Calculadora - Integrador.pdb
+F:\ProgramData\Microsoft\VisualStudio\Repos\Calculadora - Integrador\Calculadora - Integrador\obj\Debug\Calculadora___Integrador.FrmCalculadora.resources
+F:\ProgramData\Microsoft\VisualStudio\Repos\Calculadora - Integrador\Calculadora - Integrador\bin\Debug\Entidades.dll
+F:\ProgramData\Microsoft\VisualStudio\Repos\Calculadora - Integrador\Calculadora - Integrador\bin\Debug\Entidades.pdb
+F:\ProgramData\Microsoft\VisualStudio\Repos\Calculadora - Integrador\Calculadora - Integrador\obj\Debug\Calculadora - Integrador.csproj.CopyComplete
