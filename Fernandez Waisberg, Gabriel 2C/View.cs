@@ -7,19 +7,23 @@ namespace Calculadora___Integrador
     public partial class View : Form
     {
         private Calculadora calculadora;
-        private Numeracion primerOperando;
-        private Numeracion segundoOperando;
-        private Numeracion resultado;
-        private ESistema sistema;
 
         public View()
         {
             InitializeComponent();
+            this.calculadora = new Calculadora("Nombre y Apellido");
         }
+
+        /*
+        private Numeracion GetOperando (string value)
+        {
+            //return new Numeracion(value);
+        }
+        */
 
         private void FrmCalculadora_Load(object sender, EventArgs e)
         {
-            this.cmbOperacion.DataSource = new object[] { "", "+", "-", "/", "*" };
+            this.cmbOperacion.DataSource = new char[] { '+', '-', '*', '/' };
             this.rdbDecimal.Checked = true;
         }
 
@@ -40,58 +44,42 @@ namespace Calculadora___Integrador
 
         private void btnLimpiar_Click(object sender, EventArgs e)
         {
-            this.txtPrimerOperando.Clear();
-            this.txtSegundoOperando.Clear();
-            this.cmbOperacion.Text = "";
-            this.labelResultado.Text = "";
+            this.calculadora.EliminarHistorialDeOperaciones();
+            this.txtPrimerOperando.Text = string.Empty;
+            this.txtSegundoOperando.Text = string.Empty;
+            //this.resultadoLabel.Text = $"Resultado:";
+            //this.MostrarHistorial();
         }
 
         private void btnOperar_Click(object sender, EventArgs e)
         {
-            /*
-            char operador;
-
-            primerOperando = new Numeracion(txtPrimerOperando.Text, ESistema.Decimal);
-            segundoOperando = new Numeracion(txtSegundoOperando.Text, ESistema.Decimal);
-
-            calculadora = new Calculadora(primerOperando, segundoOperando);
-
-            bool resultadoChar = char.TryParse(cmbOperacion.Text, out operador);
-
-            this.resultado = calculadora.Operar(operador);
-
-            SetResultado();
-            */
+            //char operador;
+            //calculadora.PrimerOperando =
+            //this.GetOperador(this.txtPrimerOperando.Text);
+            //calculadora.SegundoOperando =
+            //this.GetOperador(this.txtSegundoOperando.Text);
+            //operador = (char)this.cmbOperacion.SelectedItem;
+            //this.calculadora.Calcular(operador);
+            //this.calculadora.ActualizaHistorialDeOperaciones(operador);
+            //this.labelResultado.Text = $"Resultado: { calculadora.Resultado.Valor}";
+            //this.MostrarHistorial();
         }
 
         private void rdbBinario_CheckedChanged(object sender, EventArgs e)
         {
-            if (rdbBinario.Checked)
-            {
-                this.sistema = ESistema.Binario;
-                //SetResultado();
-            }
+            //Calculadora.Sistema = ESistema.Decimal;
         }
 
         private void rdbDecimal_CheckedChanged(object sender, EventArgs e)
         {
-            if (rdbDecimal.Checked)
-            {
-                this.sistema = ESistema.Decimal;
-                //SetResultado();
-            }
+            //Calculadora.Sistema = ESistema.Binario;
         }
 
-        private void SetResultado()
+        private void MostrarResultado()
         {
-            /*
-            if (resultado is null)
-            {
-                return;
-            }
-
-            this.labelResultado.Text = resultado.ConvertirA(this.sistema);
-            */
+            this.lstHistorial.DataSource = null;
+            this.lstHistorial.DataSource =
+            this.calculadora.Operaciones;
         }
 
         private void txtPrimerOperando_TextChanged(object sender, EventArgs e)

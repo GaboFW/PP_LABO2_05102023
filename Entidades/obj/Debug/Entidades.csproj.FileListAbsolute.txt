@@ -8,3 +8,5 @@ F:\ProgramData\Microsoft\VisualStudio\Repos\PP_LABO2\Entidades\obj\Debug\Entidad
 F:\ProgramData\Microsoft\VisualStudio\Repos\PP_LABO2\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
 F:\ProgramData\Microsoft\VisualStudio\Repos\PP_LABO2\Entidades\obj\Debug\Entidades.dll
 F:\ProgramData\Microsoft\VisualStudio\Repos\PP_LABO2\Entidades\obj\Debug\Entidades.pdb
+F:\ProgramData\Microsoft\VisualStudio\Repos\PP_LABO2\Entidades\bin\Debug\Entidades.dll
+F:\ProgramData\Microsoft\VisualStudio\Repos\PP_LABO2\Entidades\bin\Debug\Entidades.pdb
