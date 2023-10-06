@@ -13,11 +13,11 @@ namespace Calculadora___Integrador
             InitializeComponent();
             this.calculadora = new Calculadora("Nombre y Apellido");
         }
-
+        
         /*
         private Numeracion GetOperando (string value)
         {
-            //return new Numeracion(value);
+            
         }
         */
 

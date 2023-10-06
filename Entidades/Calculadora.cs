@@ -136,9 +136,11 @@ namespace Entidades
 
         }
         
+        /*
         private Numeracion MapeaResultado(double valor)
         {
             return 
         }
+        */
     }
 }
