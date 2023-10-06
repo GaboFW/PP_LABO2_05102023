@@ -30,17 +30,14 @@ namespace Entidades
             }
         }
 
-        internal override double ValorNumerico
+        internal abstract double ValorNumerico
         {
-            get
-            {
-                return;
-            }
+            get;
         }
 
-        public abstract Numeracion CambiarSistemaDeNumeracion(ESistema sistema)
+        public virtual Numeracion CambiarSistemaDeNumeracion(ESistema sistema)
         {
-
+            return this;
         }
 
         protected virtual bool EsNumeracionValida(string valor)

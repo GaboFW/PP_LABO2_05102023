@@ -12,11 +12,11 @@ namespace Entidades
         private Numeracion primerOperando;
         private Numeracion segundoOperando;
         private Numeracion resultado;
-        private ESistema sistema;
+        static ESistema sistema;
 
-        private Calculadora()
+        static Calculadora()
         {
-            sistema = ESistema.Decimal;
+            Calculadora.sistema = ESistema.Decimal;
         }
 
         public Calculadora()
@@ -95,6 +95,7 @@ namespace Entidades
 
         public void Calcular()
         {
+
         }
 
         public void Calcular(char operador)
@@ -104,30 +105,21 @@ namespace Entidades
             switch (operador)
             {
                 case '-':
-                    resultado = primerOperando - segundoOperando;
+                    resultado = this.primerOperando.ValorNumerico - this.segundoOperando.ValorNumerico;
                     break;
 
                 case '/':
-                    try
-                    {
-                        resultado = primerOperando / segundoOperando;
-                    }
-                    catch (DivideByZeroException)
-                    {
-                        return new Numeracion(double.NaN, ESistema.Decimal);
-                    }
+                    resultado = this.primerOperando.ValorNumerico / this.segundoOperando.ValorNumerico;
                     break;
 
                 case '*':
-                    resultado = primerOperando * segundoOperando;
+                    resultado = this.primerOperando.ValorNumerico * this.segundoOperando.ValorNumerico;
                     break;
 
                 default:
-                    resultado = primerOperando + segundoOperando;
+                    resultado = this.primerOperando.ValorNumerico + this.segundoOperando.ValorNumerico;
                     break;
             }
-
-            return new Numeracion(resultado, sistema);
         }
 
         public void ActualizaHistorialDeOperaciones(char operador)
@@ -146,7 +138,7 @@ namespace Entidades
 
         private Numeracion MapeaResultado(double valor)
         {
-            
+
         }
     }
 }

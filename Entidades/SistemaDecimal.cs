@@ -14,7 +14,7 @@ namespace Entidades
         {
             get
             {
-                return;
+                return (double)this;
             }
         }
 
@@ -32,16 +32,6 @@ namespace Entidades
 
         private SistemaBinario DecimalABinario()
         {
-
-        }
-
-        protected override bool EsNumeracionValida(string valor)
-        {
-            return !string.IsNullOrWhiteSpace(valor);
-        }
-
-        private bool EsSistemaDecimalValido(string valor)
-        {
             if (int.TryParse(valor, out int numeroDecimal))
             {
                 if (numeroDecimal > 0)
@@ -58,25 +48,33 @@ namespace Entidades
                 }
                 else
                 {
-                    return Numeracion.msgError;
+                    return "Valor invalido";
                 }
             }
             else
             {
-                return Numeracion.msgError;
+                return "Valor invalido";
             }
-            
-            //TERMINAR!!
+        }
+
+        protected override bool EsNumeracionValida(string valor)
+        {
+            return !string.IsNullOrWhiteSpace(valor);
+        }
+
+        private bool EsSistemaDecimalValido(string valor)
+        {
+            return !string.IsNullOrWhiteSpace(valor);
         }
 
         public static implicit operator SistemaDecimal(double valor)
         {
-            return new Numeracion(valor);
+            return new SistemaDecimal(valor.ToString());
         }
 
         public static implicit operator SistemaDecimal(string valor)
         {
-            return new Numeracion(valor);
+            return new SistemaDecimal(valor);
         }
     }
 }

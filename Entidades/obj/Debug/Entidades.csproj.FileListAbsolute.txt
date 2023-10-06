@@ -4,3 +4,7 @@ F:\ProgramData\Microsoft\VisualStudio\Repos\Calculadora - Integrador\Entidades\o
 F:\ProgramData\Microsoft\VisualStudio\Repos\Calculadora - Integrador\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
 F:\ProgramData\Microsoft\VisualStudio\Repos\Calculadora - Integrador\Entidades\obj\Debug\Entidades.dll
 F:\ProgramData\Microsoft\VisualStudio\Repos\Calculadora - Integrador\Entidades\obj\Debug\Entidades.pdb
+F:\ProgramData\Microsoft\VisualStudio\Repos\PP_LABO2\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache
+F:\ProgramData\Microsoft\VisualStudio\Repos\PP_LABO2\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+F:\ProgramData\Microsoft\VisualStudio\Repos\PP_LABO2\Entidades\obj\Debug\Entidades.dll
+F:\ProgramData\Microsoft\VisualStudio\Repos\PP_LABO2\Entidades\obj\Debug\Entidades.pdb

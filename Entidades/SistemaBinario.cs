@@ -8,11 +8,11 @@ namespace Entidades
 {
     public class SistemaBinario : Numeracion
     {
-        sealed override double ValorNumerico
+        internal override double ValorNumerico
         {
             get
             {
-                return;
+                return (double)this;
             }
         }
 
@@ -24,12 +24,25 @@ namespace Entidades
 
         private SistemaDecimal BinarioADecimal()
         {
+            if (this.valor != base.msgError)
+            {
+                return (SistemaDecimal)this.CambiarSistemaDeNumeracion(ESistema.Decimal);
+            }
 
+            return (SistemaDecimal)this.CambiarSistemaDeNumeracion(ESistema.Binario);
         }
 
         public override Numeracion CambiarSistemaDeNumeracion(ESistema sistema)
         {
-            
+            // Decimal a binario
+            if (sistema == ESistema.Binario)
+            {
+                return this.CambiarSistemaDeNumeracion(ESistema.Binario);
+            }
+            else
+            {
+                return this;
+            }
         }
 
         protected override bool EsNumeracionValida(string valor)
@@ -56,7 +69,7 @@ namespace Entidades
 
         public static implicit operator SistemaBinario (string valor)
         {
-
+            return new SistemaBinario (valor);
         }
     }
 }
