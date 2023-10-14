@@ -67,9 +67,9 @@ namespace Entidades
             return true;
         }
 
-        public static implicit operator SistemaBinario (string valor)
+        public static implicit operator SistemaBinario(string valor)
         {
-            return new SistemaBinario (valor);
+            return new SistemaBinario(valor);
         }
     }
 }

@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Runtime.CompilerServices;
 
 namespace Entidades
 {
@@ -59,13 +58,13 @@ namespace Entidades
 
         public static explicit operator double(Numeracion numeracion)
         {
-            try
+            if (numeracion is null)
             {
                 return Convert.ToDouble(numeracion.valor);
             }
-            catch (FormatException)
+            else
             {
-                throw new InvalidCastException("Numero invalido");
+                return double.NaN;
             }
         }
 

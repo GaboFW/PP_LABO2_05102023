@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data;
+﻿using System.Collections.Generic;
 using System.Text;
 
 namespace Entidades
@@ -25,6 +23,7 @@ namespace Entidades
         }
 
         public Calculadora(string nombreAlumno)
+            :this()
         {
             this.nombreAlumno = nombreAlumno;
         }
@@ -120,27 +119,29 @@ namespace Entidades
                     resultado = this.primerOperando.ValorNumerico + this.segundoOperando.ValorNumerico;
                     break;
             }
+
+            this.resultado = this.MapeaResultado(resultado);
         }
 
         public void ActualizaHistorialDeOperaciones(char operador)
         {
             StringBuilder sb = new StringBuilder();
 
-            sb.AppendLine($"Sistema: {sistema}");
-            sb.AppendLine($"Primer Operando: {this.primerOperando} \nSegundo Operando: {this.segundoOperando}");
-            sb.AppendLine($"Operador: {operador}");
+            sb.AppendLine($"[{Calculadora.sistema}] => {this.primerOperando.Valor} {operador} {this.segundoOperando.Valor} = {this.resultado.Valor}");
+
+            this.operaciones.Add(sb.ToString());
         }
 
         public void EliminarHistorialDeOperaciones()
         {
-
+            this.operaciones.Clear();
         }
-        
-        /*
+
         private Numeracion MapeaResultado(double valor)
         {
-            return 
+            Numeracion resultado = (SistemaDecimal)valor.ToString();
+
+            return resultado.CambiarSistemaDeNumeracion(Calculadora.sistema);
         }
-        */
     }
 }

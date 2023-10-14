@@ -11,3 +11,16 @@ F:\ProgramData\Microsoft\VisualStudio\Repos\PP_LABO2\Fernandez Waisberg, Gabriel
 F:\ProgramData\Microsoft\VisualStudio\Repos\PP_LABO2\Fernandez Waisberg, Gabriel 2C\obj\Debug\Fernandez Waisberg, Gabriel 2C.csproj.CopyComplete
 F:\ProgramData\Microsoft\VisualStudio\Repos\PP_LABO2\Fernandez Waisberg, Gabriel 2C\obj\Debug\Calculadora___Integrador.exe
 F:\ProgramData\Microsoft\VisualStudio\Repos\PP_LABO2\Fernandez Waisberg, Gabriel 2C\obj\Debug\Calculadora___Integrador.pdb
+F:\ProgramData\Microsoft\VisualStudio\Repos\1ra Parte\PP_LABO2\Fernandez Waisberg, Gabriel 2C\bin\Debug\Calculadora___Integrador.exe.config
+F:\ProgramData\Microsoft\VisualStudio\Repos\1ra Parte\PP_LABO2\Fernandez Waisberg, Gabriel 2C\bin\Debug\Calculadora___Integrador.exe
+F:\ProgramData\Microsoft\VisualStudio\Repos\1ra Parte\PP_LABO2\Fernandez Waisberg, Gabriel 2C\bin\Debug\Calculadora___Integrador.pdb
+F:\ProgramData\Microsoft\VisualStudio\Repos\1ra Parte\PP_LABO2\Fernandez Waisberg, Gabriel 2C\bin\Debug\Entidades.dll
+F:\ProgramData\Microsoft\VisualStudio\Repos\1ra Parte\PP_LABO2\Fernandez Waisberg, Gabriel 2C\bin\Debug\Entidades.pdb
+F:\ProgramData\Microsoft\VisualStudio\Repos\1ra Parte\PP_LABO2\Fernandez Waisberg, Gabriel 2C\obj\Debug\Fernandez Waisberg, Gabriel 2C.csproj.AssemblyReference.cache
+F:\ProgramData\Microsoft\VisualStudio\Repos\1ra Parte\PP_LABO2\Fernandez Waisberg, Gabriel 2C\obj\Debug\Calculadora___Integrador.View.resources
+F:\ProgramData\Microsoft\VisualStudio\Repos\1ra Parte\PP_LABO2\Fernandez Waisberg, Gabriel 2C\obj\Debug\Calculadora___Integrador.Properties.Resources.resources
+F:\ProgramData\Microsoft\VisualStudio\Repos\1ra Parte\PP_LABO2\Fernandez Waisberg, Gabriel 2C\obj\Debug\Fernandez Waisberg, Gabriel 2C.csproj.GenerateResource.cache
+F:\ProgramData\Microsoft\VisualStudio\Repos\1ra Parte\PP_LABO2\Fernandez Waisberg, Gabriel 2C\obj\Debug\Fernandez Waisberg, Gabriel 2C.csproj.CoreCompileInputs.cache
+F:\ProgramData\Microsoft\VisualStudio\Repos\1ra Parte\PP_LABO2\Fernandez Waisberg, Gabriel 2C\obj\Debug\Fernandez Waisberg, Gabriel 2C.csproj.CopyComplete
+F:\ProgramData\Microsoft\VisualStudio\Repos\1ra Parte\PP_LABO2\Fernandez Waisberg, Gabriel 2C\obj\Debug\Calculadora___Integrador.exe
+F:\ProgramData\Microsoft\VisualStudio\Repos\1ra Parte\PP_LABO2\Fernandez Waisberg, Gabriel 2C\obj\Debug\Calculadora___Integrador.pdb
