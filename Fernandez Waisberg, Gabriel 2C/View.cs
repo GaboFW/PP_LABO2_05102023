@@ -11,7 +11,7 @@ namespace Calculadora___Integrador
         public View()
         {
             InitializeComponent();
-            this.calculadora = new Calculadora("Nombre y Apellido");
+            this.calculadora = new Calculadora("Gabriel Fernandez Waisberg");
         }
 
         private Numeracion GetOperador(string value)

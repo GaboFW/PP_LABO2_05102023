@@ -58,14 +58,9 @@ namespace Entidades
 
         public static explicit operator double(Numeracion numeracion)
         {
-            if (numeracion is null)
-            {
-                return Convert.ToDouble(numeracion.valor);
-            }
-            else
-            {
-                return double.NaN;
-            }
+            double.TryParse(numeracion.valor, out double result);
+
+            return result;
         }
 
         public static bool operator ==(Numeracion n1, Numeracion n2)
